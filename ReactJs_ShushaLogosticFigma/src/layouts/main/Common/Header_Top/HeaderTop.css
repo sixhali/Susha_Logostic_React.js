@@ -1,0 +1,273 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.HeaderTop-Container{
+    max-width: 1190px;
+    margin: auto;
+}
+
+
+.HeaderTop-Content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+ 
+}
+
+.HeaderTop-Content .HeaderTitle ,
+.HeaderTop-Content .HeaderTitle a{
+    color:rgba(255, 255, 255, 1);
+    display: flex;
+    gap: 30px;
+   
+}
+
+.HeaderTop-Content .Header-icons {
+    color: #fff;
+    display: flex;
+    gap: 20px;
+    position: relative;
+    top: 5px;
+    margin-left: 20px;
+    font-size: 25px;
+
+}
+
+
+/* Resposnsive */
+
+@media (max-width:1400px){
+  
+    .HeaderTop-Container{
+        max-width: 1150px;
+        margin: auto;
+    }
+    
+}
+
+@media (max-width:1200px){
+    .HeaderTop-Content{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      gap: 30px;
+    }
+
+    .HeaderTop-Content .HeaderTitle ,
+    .HeaderTop-Content .HeaderTitle a{
+       align-items: center;
+       justify-content: center;
+       gap: 30px;
+   
+    }
+
+    .HeaderTop-Content .Header-icons {
+        align-items: center;
+        justify-content: center;
+        right: 10px;    
+    }
+    
+    .HeaderTop-Content .HeaderTitle p{
+        font-size: 14px;
+        text-align: center;
+   
+    }
+    
+}
+
+
+@media (max-width:992px){
+    .HeaderTop-Content{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .HeaderTop-Content .HeaderTitle ,
+    .HeaderTop-Content .HeaderTitle a{
+       align-items: center;
+       justify-content: center;
+       gap: 30px;
+   
+    }
+
+    .HeaderTop-Content .Header-icons {
+        align-items: center;
+        justify-content: center;
+        right: 10px;    
+    }
+    
+    .HeaderTop-Content .HeaderTitle p{
+        font-size: 14px;
+        text-align: center;
+   
+    }
+    
+}
+
+@media (max-width:768px){
+    .HeaderTop-Content{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      gap: 20px;
+    }
+
+    .HeaderTop-Content .HeaderTitle ,
+    .HeaderTop-Content .HeaderTitle a{
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       gap: 30px;
+   
+    }
+
+    .HeaderTop-Content .Header-icons {
+        align-items: center;
+        justify-content: center;
+        right: 10px;    
+    }
+    
+    .HeaderTop-Content .HeaderTitle p{
+        font-size: 14px;
+        text-align: center;
+   
+    }
+    
+}
+
+@media (max-width:576px){
+    .HeaderTop-Content{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      gap: 20px;
+    }
+
+    .HeaderTop-Content .HeaderTitle ,
+    .HeaderTop-Content .HeaderTitle a{
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       gap: 30px;
+   
+    }
+
+    .HeaderTop-Content .Header-icons {
+        align-items: center;
+        justify-content: center;
+        right: 10px;    
+    }
+    
+    .HeaderTop-Content .HeaderTitle p{
+        font-size: 14px;
+        text-align: center;
+   
+    }
+    
+}
+
+@media (max-width:360px){
+    .HeaderTop-Content{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      gap: 20px;
+    }
+
+    .HeaderTop-Content .HeaderTitle ,
+    .HeaderTop-Content .HeaderTitle a{
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       gap: 30px;
+   
+    }
+
+    .HeaderTop-Content .Header-icons {
+        align-items: center;
+        justify-content: center;
+        right: 10px;    
+    }
+    
+    .HeaderTop-Content .HeaderTitle p{
+        font-size: 14px;
+        text-align: center;
+   
+    }
+    
+}
+@media (max-width:360px){
+    .HeaderTop-Content{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      gap: 20px;
+    }
+
+    .HeaderTop-Content .HeaderTitle ,
+    .HeaderTop-Content .HeaderTitle a{
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       gap: 30px;
+   
+    }
+
+    .HeaderTop-Content .Header-icons {
+        align-items: center;
+        justify-content: center;
+        right: 10px;    
+    }
+    
+    .HeaderTop-Content .HeaderTitle p{
+        font-size: 14px;
+        text-align: center;
+   
+    }
+    
+}
+@media (max-width:360px){
+    .HeaderTop-Content{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      gap: 20px;
+    }
+
+    .HeaderTop-Content .HeaderTitle ,
+    .HeaderTop-Content .HeaderTitle a{
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       gap: 30px;
+   
+    }
+
+    .HeaderTop-Content .Header-icons {
+        align-items: center;
+        justify-content: center;
+        right: 10px;    
+    }
+    
+    .HeaderTop-Content .HeaderTitle p{
+        font-size: 14px;
+        text-align: center;
+   
+    }
+    
+}

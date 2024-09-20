@@ -1,6 +1,7 @@
 import React from 'react'
 import './Supportspage.css'
 import Supportspage1 from './img/Supportspage1.svg'
+import Supportspage2 from './img/SupportPage2.svg'
 
 function Supportspage() {
   return (
@@ -19,7 +20,7 @@ function Supportspage() {
             </div>
           </div>
           <div className='supportspage-box supportspage-box_2 relative bottom-10 '>
-            <img src={Supportspage1} alt="" />
+            <img src={Supportspage2} alt="" />
             <div className='supportspage-boxText'>
              <h4>Hava yol daşımacılığı</h4>
              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.

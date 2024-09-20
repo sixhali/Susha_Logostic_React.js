@@ -112,6 +112,10 @@
         gap: 10px;
     
     }
+
+    .Usabout-content-text-1 h4{
+        font-size: 30px;
+    }
     
     .Usabout-content-text-2{
         max-width: 700px;

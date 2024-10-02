@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @font-face {
     font-family: poppins-Regular;
     src: url(./src/Fonts/Poppins/Poppins-Regular.ttf);
@@ -8,71 +12,7 @@
     src: url('./src/Fonts/Montserrat/Montserrat-Medium.ttf');
 }
 
-.Banner-Container{
-    background-image: url('./Img/BannerBg.svg');
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 30px;
-    background-size: cover;
-}
 
-.Banner-Nav{
-    background-color: #fff;
-    font-family: poppins-Regular;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: relative;
-    max-width: 1200px;
-    margin: auto;
-    padding: 30px;
-}
-
-
-.Banner-Nav .Nav-links{
-    display: flex;
-    align-items: center; 
-    gap: 30px;
-}
-
-.Banner-Nav .Nav-links a{
-   color: rgba(82, 82, 82, 1);
-   font-family: poppins-Regular;
-   font-weight: 400;
-   font-size: 20px;
-}
-
-.Nav-linksBtn a{
- background-color: rgba(185, 4, 112, 1);
- padding: 15px 40px;
- font-family: poppins-Regular;
- color: #fff;
-
-}
-
-.Nav-TextBtn{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    max-width: 1200px;
-    margin: 40px auto;
-
-}
-
-.Nav-TextBtn h2{
-    font-family:Montserrat-Medium;
-    font-weight: 600;
-    font-size: 70px;
-    letter-spacing: 5px;
-    color: rgba(255, 255, 255, 1);
-}
-
-.Nav-TextBtn h6{
-    font-family: poppins-Regular;
-    font-weight: 400;
-    font-size: 32px;
-    color: rgba(255, 255, 255, 1);
-}
 
 .Nav-TextBtn p{
     font-family: poppins-Regular;

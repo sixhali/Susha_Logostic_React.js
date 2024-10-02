@@ -111,6 +111,7 @@
     .supportspage-box_2{
         bottom: 30px;
 
+
     }
     .supportspage-box_3{
         bottom: 70px;
@@ -121,18 +122,18 @@
 
     }
     .supportspage-box_5{
-        bottom: 30px;
-        left: 140px;
+        bottom: 50px !important;
+        left: 140px !important; 
 
     }
     .supportspage-box_6{
-        bottom: 70px;
-        left: 140px;
+        bottom: 100px !important;
+        left: 140px !important;
 
     }
     .supportspage-box_7{
-        bottom: 90px;
-        left: 140px;
+        bottom: 150px !important;;
+        left: 140px !important;;
 
     }
 }
@@ -186,18 +187,18 @@
 
     }
     .supportspage-box_5{
-        top: 40px;
-        left: 0px;
+        top: 40px !important;
+        left: 0px !important;
 
     }
     .supportspage-box_6{
-        top: 40px;
-        left: 0px;
+        top: 40px !important;
+        left: 0px !important;
 
     }
     .supportspage-box_7{
-        top: 50px;
-        left: 0px;
+        top: 50px !important;
+        left: 0px !important;
 
     }
 }
@@ -245,18 +246,18 @@
 
     }
     .supportspage-box_5{
-        top: 50px;
-        left: 0px;
+        top: 50px !important;
+        left: 0px !important;
 
     }
     .supportspage-box_6{
-        top: 50px;
-        left: 0px;
+        top: 50px !important;
+        left: 0px !important;
 
     }
     .supportspage-box_7{
-        top: 70px;
-        left: 0px;
+        top: 70px !important;
+        left: 0px !important;
         margin-bottom: 30px;
 
     }
@@ -314,19 +315,19 @@
     }
     
     .supportspage-box_5{
-        top: 50px;
-        left: 0px;
+        top: 50px !important;
+        left: 0px !important;
 
     }
 
     .supportspage-box_6{
-        top: 50px;
-        left: 0px;
+        top: 50px !important;
+        left: 0px !important;
 
     }
     .supportspage-box_7{
-        top: 70px;
-        left: 0px;
+        top: 70px !important;
+        left: 0px !important;
         margin-bottom: 30px;
 
     }
@@ -375,18 +376,18 @@
 
     }
     .supportspage-box_5{
-        top: 40px;
-        left: 0px;
+        top: 40px !important;
+        left: 0px !important;
 
     }
     .supportspage-box_6{
-        top: 50px;
-        left: 0px;
+        top: 50px !important;
+        left: 0px !important;
 
     }
     .supportspage-box_7{
-        top: 60px;
-        left: 0px;
+        top: 60px !important;
+        left: 0px !important;
 
     }
 }
@@ -426,18 +427,18 @@
 
     }
     .supportspage-box_5{
-        top: 40px;
-        left: 0px;
+        top: 40px !important;
+        left: 0px !important;
 
     }
     .supportspage-box_6{
-        top: 50px;
-        left: 0px;
+        top: 50px !important;
+        left: 0px !important;
 
     }
     .supportspage-box_7{
-        top: 60px;
-        left: 0px;
+        top: 60px !important;
+        left: 0px !important;
 
     }
 }

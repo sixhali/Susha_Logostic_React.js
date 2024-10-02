@@ -21,10 +21,11 @@ function Banner() {
       <div className='Banner-Nav bg-white font-poppins flex justify-between items-center relative max-w-[1200px] m-auto p-10 '>
         <img src={ShushaLogosticLogo} alt="" />
         <div className='Nav-links flex  items-center gap-10'>
-          <a href='#' className='text-[(#525252)] font-poppins font-light text-2xl'>Ana səhifə</a>
-          <a href='#' className='text-[(#525252)] font-poppins font-light text-2xl'>Xidmətlər</a>
-          <a href='#' className='text-[(#525252)] font-poppins font-light text-2xl'>Haqqımızda</a>
-          <a href='#' className='text-[(#525252)] font-poppins font-light text-2xl'>Əlaqə</a>
+          <a href='#' className='text-[(#525252)] font-poppins font-light text-xl'>Ana səhifə</a>
+          <a href='#' className='text-[(#525252)] font-poppins font-light text-xl'>Xidmətlər</a>
+          <a href='#' className='text-[(#525252)] font-poppins font-light text-xl'>Our principles</a>
+          <a href='#' className='text-[(#525252)] font-poppins font-light text-xl'>Haqqımızda</a>
+          <a href='#' className='text-[(#525252)] font-poppins font-light text-xl'>Əlaqə</a>
         </div>
         <div className='hamburger-icons' onClick={toggleMenu}>
           {isOpen ? (

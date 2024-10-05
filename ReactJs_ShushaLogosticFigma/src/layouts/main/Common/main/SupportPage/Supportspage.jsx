@@ -10,7 +10,7 @@ import Supportspage7 from './img/Supportspage7.svg'
 
 function Supportspage() {
   return (
-    <div className='supportspage-container'>
+    <div id='support' className='supportspage-container'>
         <p>Xidmətlər</p>
         <h4>Biz nə edirik?</h4>
         <div className='supportspage-boxs'>

@@ -4,6 +4,8 @@ import ShushaLogosticLogo from './Img/ShushaLogosticLogo.svg';
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoMdClose } from "react-icons/io";
 import BgImageBanner from "./Img/BannerBg.svg"
+import arrowImage from './Img/arrow.png'; 
+
 
 function Banner() {
 
@@ -16,16 +18,16 @@ function Banner() {
   }
 
   return (
-    <div className={`Banner-Container bg-cover bg-center bg-no-repeat p-5`}
+    <div id='home' className={`Banner-Container bg-cover bg-center bg-no-repeat p-5`}
     style={{backgroundImage:`url(${BgImageBanner})`}}>
       <div className='Banner-Nav bg-white font-poppins flex justify-between items-center relative max-w-[1200px] m-auto p-10 '>
         <img src={ShushaLogosticLogo} alt="" />
         <div className='Nav-links flex  items-center gap-10'>
-          <a href='#' className='text-[(#525252)] font-poppins font-light text-xl'>Ana səhifə</a>
-          <a href='#' className='text-[(#525252)] font-poppins font-light text-xl'>Xidmətlər</a>
-          <a href='#' className='text-[(#525252)] font-poppins font-light text-xl'>Our principles</a>
-          <a href='#' className='text-[(#525252)] font-poppins font-light text-xl'>Haqqımızda</a>
-          <a href='#' className='text-[(#525252)] font-poppins font-light text-xl'>Əlaqə</a>
+          <a href='#home' className='text-[(#525252)] font-poppins font-light text-xl'>Ana səhifə</a>
+          <a href='#support' className='text-[(#525252)] font-poppins font-light text-xl'>Xidmətlər</a>
+          <a href='#ourprinciples' className='text-[(#525252)] font-poppins font-light text-xl'>Prinsiplərimiz</a>
+          <a href='#about' className='text-[(#525252)] font-poppins font-light text-xl'>Haqqımızda</a>
+          <a href='#contact' className='text-[(#525252)] font-poppins font-light text-xl'>Əlaqə</a>
         </div>
         <div className='hamburger-icons' onClick={toggleMenu}>
           {isOpen ? (
@@ -34,14 +36,15 @@ function Banner() {
             <div className='md-navparent'>
              {isOpen && (<div className='md-nav'> 
                <a href='#'>Ana səhifə</a>
-               <a href='#'>Xidmətlər</a>
-               <a href='#'>Haqqımızda</a>
-               <a href='#'>Əlaqə</a>
+               <a href='#about'>Haqqımızda</a>
+               <a href='#support'>Xidmətlər</a>
+               <a href='#ourprinciples'>Prinsiplərimiz</a>
+               <a href='#contact'>Əlaqə</a>
              </div>)}
             </div>
         </div> 
         <div className='Nav-linksBtn'>
-         <a href={'#'} className='bg-[rgba(185,4,112,1)] pt-6 pb-6 pl-20 pr-20 font-poppins text-white'>Əlaqə</a>
+         <a href={'contact'} className='bg-[rgba(185,4,112,1)] pt-6 pb-6 pl-20 pr-20 font-poppins text-white'>Əlaqə</a>
         </div>
       </div>
       <div className='Nav-TextBtn flex flex-col gap-10 max-w-[1200px] mb-10 mt-10 ml-auto mr-auto'>
@@ -54,7 +57,7 @@ function Banner() {
           </a>
           
       </div>
-
+       <a href="home"className=' fixed right-5 bottom-5 z-10'><img src={arrowImage} alt="" /></a>
     </div>
   )
 }

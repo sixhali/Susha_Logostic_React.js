@@ -56,9 +56,9 @@
     display: flex;
     margin-top: 30px;
     text-align: center;
-    gap: 30px;
+    gap: 10px;
     flex-direction: column;
-    height: 70vh;
+    height: 50vh;
 
 }
 .md-nav a{
@@ -73,9 +73,8 @@
 }
 
 .colseIcon{
-    position: absolute;
-    top: 5px;
-    right: 0px;
+  font-size: 30px;
+  margin: auto;
 }
 
 

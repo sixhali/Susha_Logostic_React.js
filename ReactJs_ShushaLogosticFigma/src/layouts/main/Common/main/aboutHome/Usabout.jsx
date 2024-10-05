@@ -4,7 +4,7 @@ import UsAboutImg from './img/UsAboutBg.svg'
 
 function Usabout() {
   return (
-    <div className='Usabout-container'>
+    <div className='Usabout-container' id='about'>
         <div className='Usabout-content'>
             <div className='Usabout-content-text'>
                 <div className='Usabout-content-text-1'>

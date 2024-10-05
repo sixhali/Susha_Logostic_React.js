@@ -10,10 +10,10 @@ function App() {
   return (
     <ScrollSpy>
         <HeaderTop/>
-        <Banner/>
-        <Usabout/>
-        <Supportspage/>
-        <OurPrinciples/>
+        <Banner id="home"/>
+        <Usabout id="about"/>
+        <Supportspage id="support"/>
+        <OurPrinciples id="principles"/>
     </ScrollSpy>
   )
 }

@@ -6,7 +6,7 @@ import Usabout from './layouts/main/Common/main/aboutHome/Usabout';
 import Supportspage from './layouts/main/Common/main/SupportPage/Supportspage';
 import OurPrinciples from './layouts/main/Common/OurPrinciples/OurPrinciples';
 import Contact from './layouts/main/Common/Contact/Contact';
-import Footer from './layouts/main/Common/Footer/footer';
+import Footer from './layouts/main/Common/Footer/Footer';
 
 function App() {
   return (

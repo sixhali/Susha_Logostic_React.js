@@ -12,10 +12,11 @@
     }
 
     .OurPrinciplesBoxs{
-        justify-content: center;
+        justify-content: center !important;
     }
 
     .OurPrinciplesBox{
+        max-width: 400px;
         padding: 40px;
     }
 
@@ -33,10 +34,11 @@
     }
 
     .OurPrinciplesBoxs{
-        justify-content: center;
+        justify-content: center !important;
     }
 
     .OurPrinciplesBox{
+        max-width: 400px;
         padding: 40px;
     }
 
@@ -53,10 +55,11 @@
     }
 
     .OurPrinciplesBoxs{
-        justify-content: center;
+        justify-content: center !important;
     }
 
     .OurPrinciplesBox{
+        max-width: 300px !important;
         padding: 40px;
     }
 
@@ -74,12 +77,18 @@
     
     }
 
+    .OurPrinciples-container h1{
+        font-size: 30px;
+    }
+
     .OurPrinciplesBoxs{
-        justify-content: center;
+        justify-content: center !important;
     }
 
     .OurPrinciplesBox{
-        padding: 40px;
+        max-width: 250px !important;
+        padding: 20px !important;
+        border-radius: 10px;
     }
 
     .OurPrinciplesBox .ImgIcon{
@@ -88,14 +97,9 @@
     }
 }
 @media (max-width:576px){
-    .OurPrinciples-container{
-        justify-content: center;
-        align-items: center;
-    
-    }
 
     .OurPrinciplesBoxs{
-        justify-content: center;
+        justify-content: center !important;
     }
 
     .OurPrinciplesBox{
@@ -110,12 +114,12 @@
 
 @media (max-width:360px){
     .OurPrinciples-container{
-        padding: 30px;
+        padding: 30px !important;
     
     }
 
     .OurPrinciplesBox{
-        padding: 20px;
+        padding: 20px !important;
     }
 
     .OurPrinciplesBox .ImgIcon{

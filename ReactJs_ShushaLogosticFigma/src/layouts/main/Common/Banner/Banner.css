@@ -147,6 +147,10 @@
        
     }
 
+    .Nav-links a{
+        font-size: 15px;
+    }
+
     .Nav-TextBtn h2{
         text-align: center;
     }

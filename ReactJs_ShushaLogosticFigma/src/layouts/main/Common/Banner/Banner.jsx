@@ -7,9 +7,17 @@ import BgImageBanner from "./Img/BannerBg.svg"
 import arrowImage from './Img/arrow.png'; 
 
 
+
 function Banner() {
 
   const [isOpen , isSetOpen] = useState(false)
+  const arrLinks = [
+    {href:"home", title:'Ana Səyifə'},
+    {href:"about", title:'Haqqımızda'},
+    {href:"support", title:'Xidmətlər'},
+    {href:"ourprinciples", title:'Prinsiplərimiz'},
+    {href:"contact", title:'Əlaqə'},
+   ]
 
   const toggleMenu=()=>{
     isSetOpen(!isOpen)
@@ -17,17 +25,24 @@ function Banner() {
       
   }
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,        
+      behavior: 'smooth' 
+    });
+  };
+
   return (
     <div id='home' className={`Banner-Container bg-cover bg-center bg-no-repeat p-5`}
     style={{backgroundImage:`url(${BgImageBanner})`}}>
       <div className='Banner-Nav bg-white font-poppins flex justify-between items-center relative max-w-[1200px] m-auto p-10 '>
         <img src={ShushaLogosticLogo} alt="" />
         <div className='Nav-links flex  items-center gap-10'>
-          <a href='#home' className='text-[(#525252)] font-poppins font-light text-xl'>Ana səhifə</a>
-          <a href='#support' className='text-[(#525252)] font-poppins font-light text-xl'>Xidmətlər</a>
-          <a href='#ourprinciples' className='text-[(#525252)] font-poppins font-light text-xl'>Prinsiplərimiz</a>
-          <a href='#about' className='text-[(#525252)] font-poppins font-light text-xl'>Haqqımızda</a>
-          <a href='#contact' className='text-[(#525252)] font-poppins font-light text-xl'>Əlaqə</a>
+              {arrLinks.map(({id,href,title})=>{
+                return(
+                  <a className='text-[(#525252)] font-poppins font-light text-xl' key={id} href={`#${href}`}>{title}</a>
+                )
+              })}
         </div>
         <div className='hamburger-icons' onClick={toggleMenu}>
           {isOpen ? (
@@ -35,11 +50,11 @@ function Banner() {
           ):(<GiHamburgerMenu className='icon'/>)}
             <div className='md-navparent'>
              {isOpen && (<div className='md-nav'> 
-               <a href='#'>Ana səhifə</a>
-               <a href='#about'>Haqqımızda</a>
-               <a href='#support'>Xidmətlər</a>
-               <a href='#ourprinciples'>Prinsiplərimiz</a>
-               <a href='#contact'>Əlaqə</a>
+              {arrLinks.map(({id,href,title})=>{
+                return(
+                  <a className='text-[(#525252)] font-poppins font-light text-xl' key={id} href={`#${href}`}>{title}</a>
+                )
+              })}
              </div>)}
             </div>
         </div> 
@@ -57,7 +72,7 @@ function Banner() {
           </a>
           
       </div>
-       <a href="home"className=' fixed right-5 bottom-5 z-10'><img src={arrowImage} alt="" /></a>
+       <a href="home" onClick={scrollToTop} className='upsmoth fixed right-5 bottom-5 z-10'><img src={arrowImage} alt="" /></a>
     </div>
   )
 }

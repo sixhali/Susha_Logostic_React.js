@@ -1,0 +1,50 @@
+@media (max-width:1200px){
+    footer{
+        gap: 10px;
+        border-radius: 10px;
+    }
+}
+
+
+@media (max-width:992px){
+    footer{
+        gap: 10px;
+        border-radius: 10px;
+    }
+}
+
+
+@media (max-width:768px){
+    footer{
+        flex-direction: column;
+        border-radius: 10px;
+    }
+
+    .icons{
+        flex-direction: row;
+    }
+}
+
+@media (max-width:576px){
+    footer{
+        flex-direction: column;
+        border-radius: 10px;
+    }
+
+    .icons{
+        flex-direction: row;
+    }
+}
+
+
+@media (max-width:360px){
+
+    footer{
+        flex-direction: column;
+        border-radius: 10px;
+    }
+
+    .icons{
+        flex-direction: row;
+    }
+}
